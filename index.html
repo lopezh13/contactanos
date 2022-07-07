@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>motoshop-contactos</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<style>
+    body{
+        background: url(./img/fondon.png);
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    .container{
+        margin-top: 80px;
+    }
+    .first{
+        background: #c9ffd3;
+    }
+    .second{
+        background: #c9ffd3;
+    }
+    .page-header .navbar{
+        padding: 1rem 0;
+    }
+
+    #emailHelp{
+        color: black;
+    }
+    img.derecha {
+     float: right;
+    }
+    br{ 
+     clear: left 
+    }
+</style>
+</head>
+<body>
+    <header class="fixed-top page-header">
+        <!-- Creando una barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #072034d9;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" width="120" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  
+                  <a class="nav-link dropdown-toggle" href="https://lopezh13.github.io/productos/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://lopezh13.github.io/motocicletas/">motocicletas</a></li>
+                    <li><a class="dropdown-item" href="https://lopezh13.github.io/baterias/">Baterias para motocicleta</a></li>
+                    <li><a class="dropdown-item" href="https://lopezh13.github.io/casco/">Casco</a></li>
+                    <li><a class="dropdown-item" href="https://lopezh13.github.io/guantes/">Guantes</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://lopezh13.github.io/contactanos/">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://lopezh13.github.io/preguntasfrecuentas/">Preguntas frecuentes</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-6 first">
+                <br>
+                <h2><p class="text-left" >ESCRÍBENOS POR 
+                    <br>WHATSAPP <img src="img/wwt.png" width="200px" class="derecha">
+                </p></h2>
+                    <ul>
+                        <li ><a class="text-white" href="https://api.whatsapp.com/send/?phone=%2B50379398927&text&type=phone_number&app_absent=0"><b style="color: black;">+503 7939 8927</b></a></li>
+                    </ul>
+                    <h2>o llamanos al</h2>
+                    <ul>
+                        <li><b>2345 0989</b></li>
+                    </ul>  
+                    <br>  
+                    <hr> 
+                    <div>
+                        <h4 class="text-center">Estamos ubicados</h4>
+                        <ul>
+                            <li>Km. 64 1/2, desvío Hacienda El Nilo, sobre autopista a Zacatecoluca y Usulután.</li>
+                        </ul>
+                        <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15518.54725161763!2d-88.8668117!3d13.496463!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd6b5a797f148b18!2sItca%20Zacatecoluca!5e0!3m2!1ses-419!2ssv!4v1649167029861!5m2!1ses-419!2ssv"  width="250" height="160" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+                    </div>
+            </div>
+            <div class="col col-6 second">
+                <h2>Escríbenos será un placer atenderte.</h2>
+                <b><p>Para consultas adicionales, un agente se pondrá en contacto contigo.</p></b>
+                <p></p>
+                <form method="post" enctype="text/plain" action="mailto:lopezhinfo@gmail.com">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Ingrese su nombre</label>
+                      <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Ingrese su correo</label>
+                        <input type="text" class="form-control" id="correo" name="correo">
+                        <div id="emailHelp" class="form-text"><b>Nunca compartiremos su correo electrónico con nadie más.</b></div>
+                      </div>
+                      <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Asunto</label>
+                      <input type="text" class="form-control" id="asunto" name="asunto">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Comentarios</label>
+                      <input type="text" class="form-control" id="comentario" name="comentario">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+                  <br>
+            </div>
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <p>siguenos en nuestras redes sociales como @motoshop &#x1F447;</p>
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-dark btn-floating m-1"
+            style="background-color: #fbfbfb;"
+            href="https://facebook.com/"
+            role="button"
+            ><i class="fab fa-facebook-f"><img src="img/5340250_book_face_facebook_fb_icon.png" alt="" width="34px"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+          class="btn btn-dark btn-floating m-1"
+          style="background-color: #fbfbfb;"
+            href="https://twitter.com/"
+            role="button"
+            ><i class="fab fa-twitter"><img src="img/104501_twitter_bird_icon.png" alt="" width="34px"></i
+          ></a>
+          <!-- Instagram -->
+          <a
+          class="btn btn-dark btn-floating m-1"
+          style="background-color: #fbfbfb;"
+            href="https://instagram.com/"
+            role="button"
+            ><i class="fab fa-instagram"><img src="img/1161953_instagram_icon.png" alt="" width="34px"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <center><div class="text-center p-3">
+        <img src="./img/logo.png" alt="" width="160px">| ©Copyright 2022 |
+        <a class="text-white" href="https://motoshop.com/">motoshop.com</a>
+      </div></center>
+      <!-- Copyright -->
+    </footer>
+</body>
+</html>
